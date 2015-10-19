@@ -30,8 +30,9 @@ $('form').submit(function() {
 	// value and sets our new Music instance
 	// then saves those to parse 
 	var x = new Music();
-	$('input').each(function(index){
+	$('input').each(function(){
 		x.set($(this).attr('id'), $(this).val());
+		$(this).val() = "";
 	});
 
 	x.save();
