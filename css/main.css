@@ -3,3 +3,12 @@ make sure to read the file into your index.html file! */
 body {
     padding: 2%;
 }
+
+#list {
+    padding: 3%;
+    font-size: 14pt;
+}
+
+#list > li {
+    padding: 1%;
+}
